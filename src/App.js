@@ -5,6 +5,9 @@ function App() {
   return (
     <div>
       <h1>News App</h1>
+      <div>
+        <h2>The Guardian</h2>
+      </div>
     </div>
   );
 }
