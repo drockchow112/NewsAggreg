@@ -1,4 +1,22 @@
-.App {
+html {
+  height:100%;
+}
+
+.app {
+ display: grid;
+ grid-template-rows: 50px 1fr;
+}
+
+.app > h1 {
   text-align: center;
 }
 
+.newsbar {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  
+}
+
+/* h2 {
+  margin:10px
+} */
